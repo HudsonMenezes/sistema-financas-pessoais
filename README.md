@@ -1,4 +1,4 @@
-# :warning: Projeto em Construção :warning:
+# :construction: Projeto em Construção :construction:
 
 ## Sistema de Finanças Pessoais
 
