@@ -7,7 +7,13 @@ const App = () => {
         <C.HeaderText>Sistema Financeiro</C.HeaderText>
       </C.Header>
       <C.Body>
-        Conteudo de Fato
+        
+      {/* Área de Informações */}
+
+      {/* Área de Inserção */}
+
+      {/* Tabela de Itens */}
+      
       </C.Body>
     </C.Container>
   )
