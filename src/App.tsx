@@ -18,6 +18,10 @@ const App = () => {
   }, [list, currentMonth])
   // essa função pega a lista pura e o mês atual, filtra e jogar numa nova lista e joga para filteredList.
 
+  const handleMonthChange = (newMonth: string) =>{
+    setCurrentMonth(newMonth)
+  }
+
   return (
     <C.Container>
       <C.Header>
@@ -26,7 +30,8 @@ const App = () => {
       <C.Body>
         
       {/* Área de Informações */}
-      <InfoArea currentMonth={currentMonth} />
+      <InfoArea currentMonth={currentMonth} 
+      onMonthChange={handleMonthChange} />
 
       {/* Área de Inserção */}
 
